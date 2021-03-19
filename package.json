@@ -1,0 +1,25 @@
+{
+  "name": "frontendmaster",
+  "version": "1.0.0",
+  "description": "",
+  "main": "backend/src/server.js",
+  "scripts": {
+    "server": "nodemon backend/src/server.js",
+    "scss": "node-sass --watch backend/src/resources/scss/app.scss -o backend/src/public/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0985938694/FrontendMaster.git"
+  },
+  "author": "chienvu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0985938694/FrontendMaster/issues"
+  },
+  "homepage": "https://github.com/0985938694/FrontendMaster#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "node-sass": "^5.0.0"
+  }
+}
